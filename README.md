@@ -40,14 +40,6 @@ Generated business insights
    SELECT AVG(Store_Sales) AS avg_sales FROM stores;
    
 
-   2. Highest Performing Store
-  
-      
-      SELECT * 
-FROM stores 
-ORDER BY Store_Sales DESC 
-LIMIT 1;
+2. Highest Performing Store
 
-3. Total Customers
-
- SELECT SUM(Daily_Customer_Count) AS total_customers FROM stores;
+ 
