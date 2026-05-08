@@ -14,3 +14,13 @@ Sales efficiency metrics
 MySQL (SQL Workbench)
 Microsoft Excel
 GitHub
+
+| Column               | Description                  |
+| -------------------- | ---------------------------- |
+| Store_ID             | Unique store identifier      |
+| Store_Area           | Size of store                |
+| Items_Available      | Stock available              |
+| Daily_Customer_Count | Number of customers per day  |
+| Store_Sales          | Total sales                  |
+| Performance          | High / Medium / Low category |
+
