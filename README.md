@@ -32,3 +32,8 @@ Inserted dataset into SQL
 Retrieved and explored data
 Performed aggregation analysis
 Generated business insights
+
+📌 Key SQL Queries
+
+1. Average Sales
+   SELECT AVG(Store_Sales) AS avg_sales FROM stores;
