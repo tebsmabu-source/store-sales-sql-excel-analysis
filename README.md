@@ -24,3 +24,10 @@ GitHub
 | Store_Sales          | Total sales                  |
 | Performance          | High / Medium / Low category |
 
+
+🧮 SQL Analysis Performed
+Created database and table structure
+Inserted dataset into SQL
+Retrieved and explored data
+Performed aggregation analysis
+Generated business insights
