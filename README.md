@@ -26,6 +26,7 @@ GitHub
 
 
 🧮 SQL Analysis Performed
+
 Created database and table structure
 Inserted dataset into SQL
 Retrieved and explored data
