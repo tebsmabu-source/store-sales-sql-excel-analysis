@@ -22,10 +22,45 @@ Store_ID	                                        Unique store ID
 
 Store_Area	                                       Size of store
 
-Items_Available	Stock available
+Items_Available	                                    Stock available
 
-Daily_Customer_Count	Daily customers
+Daily_Customer_Count	                              Daily customers
 
-Store_Sales	Total sales
+Store_Sales                                        	Total sales
 
-Performance	High / Medium / Low category
+Performance                                        	High / Medium / Low category
+
+
+🟦 SQL Analysis Performed
+
+Created database and table structure
+
+Inserted store dataset
+
+Retrieved and explored data
+
+Performed business analysis using SQL queries
+
+Generated performance insights
+
+📌 Key SQL Insights
+
+Highest performing store identified using ORDER BY
+
+Average sales calculated using AVG()
+
+Total customer count calculated using SUM()
+
+Sales efficiency calculated (sales per customer)
+
+Performance distribution grouped using GROUP BY
+
+Key Results
+
+Stores with higher customer count generally generate higher sales
+
+Sales efficiency helps identify the most productive stores
+
+Most stores fall under the “High” performance category
+
+Customer activity strongly influences store revenue
