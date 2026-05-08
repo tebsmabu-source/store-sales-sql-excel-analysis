@@ -5,6 +5,7 @@
 This project analyzes retail store performance using SQL and Excel to understand how store size, customer traffic, and inventory affect sales performance.
 
 The goal is to identify:
+
 - High-performing stores
 - Customer behavior patterns
 - Sales efficiency metrics
@@ -22,7 +23,7 @@ The goal is to identify:
 ## 🗂️ Dataset Description
 
 | Column | Description |
-|---|---|
+| --- | --- |
 | Store_ID | Unique store identifier |
 | Store_Area | Size of store |
 | Items_Available | Stock available |
@@ -47,30 +48,30 @@ The goal is to identify:
 ### Average Sales
 
 ```sql
-SELECT AVG(Store_Sales) AS avg_sales 
+SELECT AVG(Store_Sales) AS avg_sales
 FROM stores;
 ```
 
 ### Highest Performing Store
 
 ```sql
-SELECT * 
-FROM stores 
-ORDER BY Store_Sales DESC 
+SELECT *
+FROM stores
+ORDER BY Store_Sales DESC
 LIMIT 1;
 ```
 
 ### Total Customers
 
 ```sql
-SELECT SUM(Daily_Customer_Count) AS total_customers 
+SELECT SUM(Daily_Customer_Count) AS total_customers
 FROM stores;
 ```
 
 ### Sales Efficiency
 
 ```sql
-SELECT 
+SELECT
     Store_ID,
     Store_Sales,
     Daily_Customer_Count,
