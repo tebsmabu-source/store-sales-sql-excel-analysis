@@ -40,6 +40,8 @@ Generated business insights
    SELECT AVG(Store_Sales) AS avg_sales FROM stores;
 
    2. Highest Performing Store
+  
+      
       SELECT * 
 FROM stores 
 ORDER BY Store_Sales DESC 
