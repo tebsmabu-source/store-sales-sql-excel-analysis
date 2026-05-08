@@ -60,4 +60,23 @@ LIMIT 1;
     Store_Sales / Daily_Customer_Count AS sales_per_customer
 FROM stores;
 
+📊 Visual Outputs
+
+Average Sales Result
+Highest Performing Store
+Full Table Output
+
+📈 Key Insights
+
+Stores with higher customer counts generate higher sales
+Sales efficiency helps identify top-performing stores
+Majority of stores fall under “High” performance
+
+🏁 Conclusion
+
+
+This analysis demonstrates how SQL can be used to extract meaningful business insights from retail data and support data-driven decision-making.
+Customer traffic is strongly linked to revenue
+Excel Dashboard Analysis
+
  
