@@ -10,6 +10,7 @@ Customer behavior patterns
 Sales efficiency metrics
 
 🛠️ Tools Used
+
 MySQL (SQL Workbench)
 Microsoft Excel
 GitHub
