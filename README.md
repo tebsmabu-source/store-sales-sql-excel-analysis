@@ -8,3 +8,8 @@ The goal is to identify:
 High-performing stores
 Customer behavior patterns
 Sales efficiency metrics
+
+🛠️ Tools Used
+MySQL (SQL Workbench)
+Microsoft Excel
+GitHub
