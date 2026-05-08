@@ -53,3 +53,46 @@ The goal is to identify:
 ```sql
 SELECT AVG(Store_Sales) AS avg_sales 
 FROM stores;
+
+Highest Performing Store
+
+SELECT * 
+FROM stores 
+ORDER BY Store_Sales DESC 
+LIMIT 1;
+
+Total Customers
+
+SELECT SUM(Daily_Customer_Count) AS total_customers 
+FROM stores;
+
+Sales Efficiency
+
+SELECT 
+    Store_ID,
+    Store_Sales,
+    Daily_Customer_Count,
+    Store_Sales / Daily_Customer_Count AS sales_per_customer
+FROM stores;
+
+📊 Visual Outputs
+
+
+Average Sales Result
+Highest Performing Store
+Full Table Output
+Excel Dashboard Analysis
+
+📈 Key Insights
+
+
+Stores with higher customer counts generate higher sales
+Sales efficiency helps identify top-performing stores
+Majority of stores fall under “High” performance
+Customer traffic is strongly linked to revenue
+
+🏁 Conclusion
+
+
+
+This analysis demonstrates how SQL can be used to extract meaningful business insights from retail data and support data-driven decision-making.
