@@ -17,11 +17,10 @@ GitHub
 
 🟧 Dataset Description
 
-Column	Description
+Column	                                          Description            
+Store_ID	                                        Unique store ID
 
-Store_ID	Unique store ID
-
-Store_Area	Size of store
+Store_Area	                                       Size of store
 
 Items_Available	Stock available
 
