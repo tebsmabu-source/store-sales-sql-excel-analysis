@@ -47,4 +47,17 @@ FROM stores
 ORDER BY Store_Sales DESC 
 LIMIT 1;
 
+3. Total Customers
+
+ SELECT SUM(Daily_Customer_Count) AS total_customers FROM stores;
+
+ 4. Sales Efficiency
+
+  SELECT 
+    Store_ID,
+    Store_Sales,
+    Daily_Customer_Count,
+    Store_Sales / Daily_Customer_Count AS sales_per_customer
+FROM stores;
+
  
