@@ -42,4 +42,9 @@ Generated business insights
 
 2. Highest Performing Store
 
+ SELECT * 
+FROM stores 
+ORDER BY Store_Sales DESC 
+LIMIT 1;
+
  
