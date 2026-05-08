@@ -36,4 +36,5 @@ Generated business insights
 📌 Key SQL Queries
 
 1. Average Sales
+2. 
    SELECT AVG(Store_Sales) AS avg_sales FROM stores;
