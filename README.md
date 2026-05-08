@@ -13,3 +13,20 @@ MySQL (SQL Workbench)
 Microsoft Excel
 
 GitHub
+
+
+🟧 Dataset Description
+
+Column	Description
+
+Store_ID	Unique store ID
+
+Store_Area	Size of store
+
+Items_Available	Stock available
+
+Daily_Customer_Count	Daily customers
+
+Store_Sales	Total sales
+
+Performance	High / Medium / Low category
